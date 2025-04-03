@@ -111,7 +111,7 @@ export default function Hero() {
 
     const mirrorGeometry = new THREE.BoxGeometry(mirrorWidth, mirrorHeight, 0.2, 16, 16, 16) // Reduced from 32
     const mirrorMaterial = new THREE.MeshPhysicalMaterial({
-      color: 0x00a4c9,
+      color: 0x000000,
       metalness: 0.95,
       roughness: 0.02,
       envMap: cubeRenderTarget.texture,
