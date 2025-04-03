@@ -285,7 +285,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative h-screen-safe flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-[#00a4c9] to-[#00627a]"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#001F99] to-[#00627a]"></div>
       <div className="absolute inset-0 opacity-20">
         <div
           className="absolute inset-0 bg-gradient-radial from-[#FF6A1D]/30 via-transparent to-transparent animate-pulse"
@@ -294,7 +294,7 @@ export default function Hero() {
       </div>
       {webGLError ? (
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-full h-full bg-gradient-to-br from-[#00a4c9] to-[#00627a] opacity-80"></div>
+          <div className="w-full h-full bg-gradient-to-br from-[#001F99] to-[#00627a] opacity-80"></div>
         </div>
       ) : (
         <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
